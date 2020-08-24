@@ -38,7 +38,7 @@ namespace Taller1
 
                     if (!regiones.ContainsKey(rowLine[0]))
                     {
-                        regione.Add(rowLine[0], true);
+                        regiones.Add(rowLine[0], true);
                         cb.Items.Add(rowLine[0]);
                     }
                 }
@@ -48,9 +48,9 @@ namespace Taller1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string serieName = "Departamentos por region";
+            string dep = "Departamentos por region";
             grafico.Series.Clear();
-            grafico.Series.Add(serieName);
+            grafico.Series.Add(dep);
 
             Dictionary<string, Dictionary<string, int>> regiones = new Dictionary<string, Dictionary<string, int>>();
             foreach (string[] row in values)
@@ -77,10 +77,10 @@ namespace Taller1
 
             foreach (KeyValuePair<string, Dictionary<string, int>> kvp in regiones)
             {
-                grafico.Series[serieName].Points.AddXY(kvp.Key, kvp.Value.Count);
+                grafico.Series[dep].Points.AddXY(kvp.Key, kvp.Value.Count);
             }
 
-            grafico.Series[serieName].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
+            grafico.Series[dep].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bar;
         }
     
 
