@@ -23,6 +23,7 @@ namespace Taller1
             values = new List<string[]>();
             if (openFileDialog1.ShowDialog() == DialogResult.OK) {
                 String rutan = openFileDialog1.FileName;
+                direc.Text = rutan;
                 string[] lines = System.IO.File.ReadAllLines(openFileDialog1.FileName);
                
                 Dictionary<string, bool> regiones = new Dictionary<string, bool>();
@@ -100,5 +101,9 @@ namespace Taller1
             }
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            clearGrid();
+        }
     }
 }
