@@ -25,7 +25,7 @@ namespace Taller1
                 String rutan = openFileDialog1.FileName;
                 string[] lines = System.IO.File.ReadAllLines(openFileDialog1.FileName);
                
-                Dictionary<string, bool> regions = new Dictionary<string, bool>();
+                Dictionary<string, bool> regiones = new Dictionary<string, bool>();
                 foreach (string line in lines)
                 {
                     string[] rowLine = line.Split(',');
@@ -36,9 +36,9 @@ namespace Taller1
                         grid.Rows.Add(rowLine);
                     }
 
-                    if (!regions.ContainsKey(rowLine[0]))
+                    if (!regiones.ContainsKey(rowLine[0]))
                     {
-                        regions.Add(rowLine[0], true);
+                        regione.Add(rowLine[0], true);
                         cb.Items.Add(rowLine[0]);
                     }
                 }
