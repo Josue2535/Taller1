@@ -8,3 +8,13 @@ C:\Users\rojop\OneDrive\Escritorio\Taller1\Taller1\Taller1\obj\Debug\Taller1.csp
 C:\Users\rojop\OneDrive\Escritorio\Taller1\Taller1\Taller1\obj\Debug\Taller1.csproj.CoreCompileInputs.cache
 C:\Users\rojop\OneDrive\Escritorio\Taller1\Taller1\Taller1\obj\Debug\Taller1.exe
 C:\Users\rojop\OneDrive\Escritorio\Taller1\Taller1\Taller1\obj\Debug\Taller1.pdb
+C:\Users\rojop\OneDrive\Escritorio\universidad\Proyecto Integrador\Taller1\Taller1\Taller1\bin\Debug\Taller1.exe.config
+C:\Users\rojop\OneDrive\Escritorio\universidad\Proyecto Integrador\Taller1\Taller1\Taller1\bin\Debug\Taller1.exe
+C:\Users\rojop\OneDrive\Escritorio\universidad\Proyecto Integrador\Taller1\Taller1\Taller1\bin\Debug\Taller1.pdb
+C:\Users\rojop\OneDrive\Escritorio\universidad\Proyecto Integrador\Taller1\Taller1\Taller1\obj\Debug\Taller1.csprojAssemblyReference.cache
+C:\Users\rojop\OneDrive\Escritorio\universidad\Proyecto Integrador\Taller1\Taller1\Taller1\obj\Debug\Taller1.Form1.resources
+C:\Users\rojop\OneDrive\Escritorio\universidad\Proyecto Integrador\Taller1\Taller1\Taller1\obj\Debug\Taller1.Properties.Resources.resources
+C:\Users\rojop\OneDrive\Escritorio\universidad\Proyecto Integrador\Taller1\Taller1\Taller1\obj\Debug\Taller1.csproj.GenerateResource.cache
+C:\Users\rojop\OneDrive\Escritorio\universidad\Proyecto Integrador\Taller1\Taller1\Taller1\obj\Debug\Taller1.csproj.CoreCompileInputs.cache
+C:\Users\rojop\OneDrive\Escritorio\universidad\Proyecto Integrador\Taller1\Taller1\Taller1\obj\Debug\Taller1.exe
+C:\Users\rojop\OneDrive\Escritorio\universidad\Proyecto Integrador\Taller1\Taller1\Taller1\obj\Debug\Taller1.pdb
